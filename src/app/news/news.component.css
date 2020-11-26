@@ -1,0 +1,9 @@
+.content {
+    padding: 30px;
+}
+.content > mat-card {
+    margin-bottom: 30px;
+}
+.mat-elevation-z4 {
+    height: 95%;
+}

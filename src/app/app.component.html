@@ -1,0 +1,13 @@
+<mat-toolbar aria-setsize="50px" color="primary" style="border-radius: 5px 5px 0 0;">
+  <mat-toolbar-row>
+    <button mat-button [routerLink]="['/news']">Vijesti</button>
+    <button mat-button [routerLink]="['/bitcoin']">Bitcoin</button>
+    <span class="flexExpand"></span>
+    <button mat-button [routerLink]="['/forma']">Forma</button>
+  </mat-toolbar-row>
+</mat-toolbar>
+<router-outlet></router-outlet>
+
+<footer>
+  <div>© 2020 Copyright: Sonja Maksimović</div>
+</footer>
